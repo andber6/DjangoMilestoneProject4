@@ -50,7 +50,7 @@
                                     <td>
                                         <a href="{% url 'order_history' order.order_number %}" 
                                             titel="{{ order.order_number }}">
-                                            {{ order.order_number|tuncatechars:6 }}
+                                            {{ order.order_number|truncatechars:6 }}
                                         </a>
                                     </td>
                                     <td>{{ order.date }}</td>
