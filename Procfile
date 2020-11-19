@@ -1,1 +1,1 @@
-web: gunicorn mystore-ecommerce-website.wsgi:application
+web: gunicorn djangoMilstoneProject4.wsgi:application
